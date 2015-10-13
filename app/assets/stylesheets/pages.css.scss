@@ -1,128 +1,110 @@
-.hea{
-	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 20px;
-   magin-left: 30px;
+body {
+   
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
     background-color: #fff;
+   
+}
+.style-ul li {
+    list-style: none;
+    float: left;
+    padding: 27px;
+    color: #000;
+    font-size: 18px;
+   font-weight: 500;
+}
+.style-ul li a {
+    color: #000;
+    font-weight: 500;
     
 }
-.hi{
-background-color: #eaeff4;
-    color: #000;
-    padding: 0 10px 0;
-}
-.hea ul{
-margin-top: 33px;
-   
-       list-style: none;
-       padding-left: 100px;
-}
-.hea ul a{
- color:#000;
- 
-}
-.hea ul li a{	
-magin-left: 30px;
-    float: left;
-    padding-left: 30px;
-}
-h2{
-text-align: center;
-color: #fff;
-    line-height: 56px;
-   
-}
-.tb{
-	padding-left: 435px;
-}
-.hinh{
-    background: url(https://portfolio-rails-2633.herokuapp.com/assets/home-db103bf75e724b89102c607792424914.jpg) center center;
-    background-size: cover;
-    min-height: 600px;
-    width: 100%;
-}
-.i{
-  color: #fff;
-  text-decoration:none; 
+h1{
+	font-size: 19px;
+   font-weight: 400;
   
+    margin-top: 29px;
+
 }
-.btn{
+.bg-main{
+background-image: url("https://portfolio-rails-2633.herokuapp.com/assets/home-db103bf75e724b89102c607792424914.jpg");
+    min-height: 500px;
+    padding-top: 120px;
+
+}
+ul {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.repair-h2 a {
     background-color: rgba(0,0,0,0.9);
-    border-radius: 1px;
-     color: #fff;
-    font-size: 16px;
-    font-weight: 1000;
-    height: 60px;
-    line-height: 60px;
-    margin: 0 0 400px 350px;
-    padding: 0;
-    transition: background-color .5s;
-    width: 200px;
-    text-decoration:none; 
+    font-size: 18px;
+    color: #fff;
+    margin: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-weight: 100;
+    font-family: 'Roboto', sans-serif;
 }
-.btn1{
- padding: 0 0 500px 500px;
-  color: #fff;
+.repair-h2 {
+    background: transparent;
+    font-size: 48px;
+    line-height: 56px;
+    color: #fff;
 }
-.btn:hover{
+.hight-light {
+    background-color: #eaeff4;
+    color: #000;
+    padding: 0 10px;
+}
+.repair-h2 a:hover{
     background-color: #cc6cff;
     color: #fff;
     transition: background-color .5s;
-    text-decoration:none; 
+    text-decoration: none;
 }
-.banner{
-margin: 50px 0;
-    padding: 300px 200px 0 280px;
-    width: 100%;
+.contact{
+    padding-top: 65px;
+    padding-bottom: 40px;
+    list-style: none;
 }
-.banner h2{
-font-size: 42px;
-    line-height: 56px;
-    font-family: inherit;
-    font-weight: 500;
-}
-.footer{
-background-color: #fff;
-    height: 200px;
-    text-align: right;
-    width: 100%;
-}
-.container1{
-	padding: 0 200px 0 280px;
-    width: 100%;
-}
-.soc li a{
-display: block;
-    height: 24px;
-    width: 24px;
+.contact li{
+    display: list-item;
     float:right;
-    magin-right:10px;
-    
+    padding:10px;
 }
-.soc li{
-display: inline-block;
-    height: 24px;
-    margin: 0 0 0 10px;
-    text-align: left;
-    text-indent: -9999px;
+.contact li a {
+    float: right;
     width: 24px;
+    height: 24px;
+    text-indent: -9999px;
+   text-align:left;
 }
-.soc{
-margin: 80px 0 100px;
-    width: 100%;
-     list-style: none;
+.linkedin {
+    background-image: url("https://portfolio-rails-2633.herokuapp.com/assets/twitter-8c095eaee58362a46d56e3f07b50b23b.svg");
+    background-position:center center;
+    background-repeat:no-repeat;
 }
-.g{
- background-image: url(https://portfolio-rails-2633.herokuapp.com/assets/github-edc899c60c7b3afd0c458e648197f578.svg);
-    background-position: center center;
+.github {
+    background-image: url("https://portfolio-rails-2633.herokuapp.com/assets/github-edc899c60c7b3afd0c458e648197f578.svg");
+    background-position:center center;
+    background-repeat:no-repeat;
 }
-.l{
-background-image: url(https://portfolio-rails-2633.herokuapp.com/assets/linkedin-be22eb82414f9f637debbe2d64c301cb.svg);
-    background-position: center center;
+.twitter {
+    background-image: url("https://portfolio-rails-2633.herokuapp.com/assets/linkedin-be22eb82414f9f637debbe2d64c301cb.svg");
+    
+    background-position:center center;
+    background-repeat:no-repeat;
 }
-.t{
-background-image: url(https://portfolio-rails-2633.herokuapp.com/assets/twitter-8c095eaee58362a46d56e3f07b50b23b.svg);
-    background-position: center center;
+p.text-right {
+    padding-bottom: 40px;
 }
-.end{
-	padding-top:43px;
-}
+
